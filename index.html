@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio — KEBIR Abdelhaq</title>
+  <meta name="description" content="Page personnelle de KEBIR Abdelhaq — Doctorant, chercheur et ingénieur en énergies renouvelables (électrotechnique)">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;--card:#0b1220;--muted:#9aa6b2;--accent:#06b6d4;--glass:rgba(255,255,255,0.03);--maxw:1100px;--radius:14px;color-scheme:dark;
+    }
+    *{box-sizing:border-box}body{margin:0;font-family:'Cairo',sans-serif;background:linear-gradient(180deg,var(--bg),#071020);color:#e6eef3;padding:40px 20px;display:flex;justify-content:center}
+    .container{width:100%;max-width:var(--maxw)}header{display:flex;justify-content:space-between;align-items:center;margin-bottom:30px}
+    .brand{display:flex;gap:14px;align-items:center}.logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#4f46e5);display:grid;place-items:center;font-weight:900;color:#021018;font-size:20px}
+    h1{margin:0;font-size:24px}.btn{background:var(--accent);border:none;padding:10px 14px;border-radius:10px;color:#021018;font-weight:700;text-decoration:none}.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:10px;color:var(--muted)}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:22px;border-radius:var(--radius);box-shadow:0 8px 30px rgba(2,6,23,.6);border:1px solid rgba(255,255,255,0.03)}
+    .hero{display:grid;grid-template-columns:1fr 350px;gap:28px;align-items:center}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}}
+    .badge{background:var(--glass);padding:6px 10px;border-radius:999px;font-weight:600;color:var(--muted);font-size:13px;margin:4px}
+    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+    .project{padding:14px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);border:1px solid rgba(255,255,255,0.03)}
+    .skills{display:flex;flex-direction:column;gap:10px}.skill{display:flex;justify-content:space-between;align-items:center}.bar{height:10px;background:rgba(255,255,255,0.05);border-radius:8px;flex:1;margin:0 12px;overflow:hidden}.bar span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#7c3aed)}
+    footer{margin-top:36px;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">KA</div>
+        <div>
+          <h1>KEBIR Abdelhaq</h1>
+          <div style="color:var(--muted);font-size:13px">Doctorant en électrotechnique — Ingénieur en énergies renouvelables</div>
+        </div>
+      </div>
+      <nav>
+        <a class="secondary" href="#projects">Projets</a>
+        <a class="secondary" href="#skills">Compétences</a>
+        <a class="secondary" href="#contact">Contact</a>
+        <a class="btn" href="/cv_15_1729170150272.pdf">Télécharger le CV (PDF)</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section class="card">
+        <h2>Bonjour — je suis Abdelhaq KEBIR</h2>
+        <p>Ingénieur en énergies renouvelables (électrotechnique) et doctorant intéressé par la recherche sur les systèmes d'énergie durable. Je développe des solutions pour l'intégration des sources renouvelables et l'optimisation des systèmes hybrides.</p>
+        <div>
+          <span class="badge">Chercheur</span><span class="badge">Doctorant</span><span class="badge">Ingénieur Énergies</span>
+        </div>
+        <ul style="color:var(--muted);margin-top:14px">
+          <li>Âge : 24 ans</li>
+          <li>Adresse : Rue l'aarbi ben mhidi, cité Ben Badis</li>
+          <li>Téléphone : +213 554640211</li>
+          <li>Email : <a href="mailto:abdelhakkebir14@gmail.com" style="color:var(--accent)">abdelhakkebir14@gmail.com</a></li>
+        </ul>
+      </section>
+
+      <aside class="card" style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-weight:700">Algérie</div>
+          <div style="color:var(--muted);font-size:13px">Naâma</div>
+        </div>
+        <div style="text-align:center">
+          <div style="font-size:12px;color:var(--muted)">Expérience</div>
+          <div style="font-weight:800">6+ ans</div>
+        </div>
+      </aside>
+    </main>
+
+    <section id="projects" class="card" style="margin-top:20px">
+      <div class="section-title"><h3>Projets & Expériences</h3></div>
+      <div class="project">
+        <h4>Installation de systèmes de surveillance et sécurité</h4>
+        <p>Expérience pratique dans l'installation de caméras, systèmes d'alarme et réseaux informatiques.</p>
+      </div>
+      <div class="project">
+        <h4>Participation à la conférence ICREPS'2024</h4>
+        <p>Communication intitulée «Sizing and optimization of multi-source PV-Wind system» présentée lors de la conférence ICREPS'2024 à Naâma.</p>
+      </div>
+      <div class="project">
+        <h4>Stage de recherche</h4>
+        <p>Stage au sein d'une unité de recherche en énergie renouvelable en milieu saharien (2024).</p>
+      </div>
+      <div class="project">
+        <h4>Enseignement universitaire</h4>
+        <p>Intervenant vacataire au Centre Universitaire Ahmed Salhi, Naâma, en énergies renouvelables.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="card" style="margin-top:18px">
+      <div class="section-title"><h3>Compétences techniques</h3></div>
+      <div class="skills">
+        <div class="skill"><div>PVSyst / PVsol</div><div class="bar"><span style="width:90%"></span></div><div>90%</div></div>
+        <div class="skill"><div>MATLAB / Homer Pro</div><div class="bar"><span style="width:85%"></span></div><div>85%</div></div>
+        <div class="skill"><div>AutoCAD / Python / MS Office</div><div class="bar"><span style="width:80%"></span></div><div>80%</div></div>
+        <div class="skill"><div>Communication & travail d'équipe</div><div class="bar"><span style="width:88%"></span></div><div>88%</div></div>
+      </div>
+    </section>
+
+    <section id="education" class="card" style="margin-top:18px">
+      <div class="section-title"><h3>Parcours académique</h3></div>
+      <ul style="color:var(--muted)">
+        <li>Baccalauréat technique — Lycée Ahmed Tawfiq el Madani (2019)</li>
+        <li>Licence en électrotechnique — Centre Universitaire Ahmed Salhi Naâma (2022)</li>
+        <li>Master en énergies renouvelables (électrotechnique) — Centre Universitaire Ahmed Salhi Naâma (2024)</li>
+        <li>Doctorat en électrotechnique — 1ère année (2025)</li>
+      </ul>
+    </section>
+
+    <section id="research" class="card" style="margin-top:18px">
+      <div class="section-title"><h3>Sujet de Master / Orientation de recherche</h3></div>
+      <p style="color:var(--muted);margin-bottom:10px">Sujet traité durant le Master :</p>
+      <div style="background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)">
+        <strong>Dimensionnement et optimisation d’un système multi-sources PV-Éolienne</strong>
+        <p style="color:var(--muted);margin-top:8px">Résumé : Dimensionnement et conception d'un système hybride combinant photovoltaïque et éolien, avec application de méthodes d'optimisation pour sélectionner les composants et améliorer les performances techniques et économiques en conditions climatiques spécifiques.</p>
+      </div>
+    </section>
+
+    <section id="phd" class="card" style="margin-top:18px">
+      <div class="section-title"><h3>Sujet de Doctorat</h3></div>
+      <p style="color:var(--muted);margin-bottom:10px">Sujet de thèse actuel :</p>
+      <div style="background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)">
+        <strong>Modeling and Control of an MMC-Based STATCOM for Renewable Energy Source Grid Integration</strong>
+        <p style="color:var(--muted);margin-top:8px">Objectif : Développer des modèles et des stratégies de contrôle pour un STATCOM basé sur MMC afin d'améliorer l'intégration des sources renouvelables au réseau électrique, en assurant la stabilité de la tension et la qualité de la puissance.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="card" style="margin-top:18px">
+      <div class="section-title"><h3>Contact</h3></div>
+      <p>Vous pouvez me contacter par e-mail ou via les réseaux sociaux :</p>
+      <ul style="color:var(--muted)">
+        <li>Email : <a href="mailto:abdelhakkebir14@gmail.com" style="color:var(--accent)">abdelhakkebir14@gmail.com</a></li>
+        <li>Téléphone : +213 554640211</li>
+        <li>Facebook : Abd El HaQ</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div>© 2025 KEBIR Abdelhaq — Tous droits réservés</div>
+      <a href="#top" class="secondary">Retour en haut</a>
+    </footer>
+  </div>
+</body>
+</html>
